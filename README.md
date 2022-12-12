@@ -1,1 +1,1 @@
-https://swettlana.github.io/rsschool-cv/
+https://swettlana.github.io/rsschool-cv/cv

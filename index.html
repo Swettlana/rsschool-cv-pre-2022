@@ -4,9 +4,121 @@
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Sviatlana</title>
+  <link href="style.css" rel="stylesheet">
+  <title>CV</title>
 </head>
 <body>
-
+  <header>
+    <nav>
+      <ul>
+        <li><a href="#about">About me</a></li>
+        <li><a href="#educ">Education</a></li>
+        <li><a href="#skills">Skills</a></li>
+        <li><a href="#projects">My projects</a></li>
+        <li><a href="#lang">Languages</a></li>
+        <li><a href="#contacts">Contacts</a></li>
+      </ul>
+    </nav>
+    <h1>Sviatlana Mikhailava</h1>
+    <h2>Junior Front-end Developer</h2>
+  </header>
+  <main>
+    <aside>
+      <div class="avatar">
+        <img class="avatar-img" src="./assets/for-CV.jpg" alt="Photo">
+      </div>
+      <address id="contacts">
+        <ul class="contact">
+          <li id="city">Poland, Wrocław</li>
+          <li id="phone">
+            <a href="tel:+48573013319">phone: +48 573 013 319</a>
+          </li>
+          <li id="email">
+            <a href="mailto:stellla@tut.by">stellla@tut.by</a>
+          </li>
+          <li id="git-hub">
+            <a href=https://github.com/Swettlana>https://github.com/Swettlana</a>
+          </li>
+        </ul>
+      </address>
+      <div id="lang">
+        <h2>Languages</h2>
+        <ul class="lang">
+          <li>Russian <span>NATIVE</span></li>
+          <li>Polish <span>B1-B2</span></li>
+          <li>English <span>B1-B2</span></li>
+        </ul>
+      </div>
+      <div id="skills">
+        <h2>Skills</h2>
+        <ul class="skills">
+          <li id="HTML">HTML5</li>
+          <li id="CSS">CSS, SCSS</li>
+          <li id="js">JavaScript</li>
+          <li id="ts">TypeScript</li>
+          <li id="react">React</li>
+          <li id="git">Git</li>
+        </ul>
+      </div>
+    </aside>
+    <div>
+      <section class="about" id="about">
+        <h4>
+          About me
+        </h4>
+        <p>
+          I am a responsible and hard-working person. Currently I work as accounter, study in RSSchool and
+          learn English.
+        </p>
+      </section>
+      <section class="education" id="educ">
+        <h4>
+          Education
+        </h4>
+        <p><span>Belarusian National Technical University</span>, Republic of Belarus, Minsk</p>
+        <p>Completion: 2008</p>
+        <p>On-line corses <span>"HTML for beginners"</span> and <span>"CSS for beginners"</span></p>
+        <p>Completion: 2021</p>
+      </section>
+      <section class="code">
+        <h4>
+          Code example
+        </h4>
+        <pre>
+          function explode(s)
+            {
+              return s.split('').map((el)=> el.repeat(Number(el))).join('') 
+            }
+        </pre>
+      </section>
+      <section id="projects">
+        <h3>Studies projects</h3>
+        <div class="projects">
+          <div class="zoo">
+            <h5>Web-site On-line Zoo</h5>
+            <a class="zoo-link" target="_blanc"
+              href="https://rolling-scopes-school.github.io/swettlana-JSFE2021Q1/online-zoo/pages/landing/index.html">
+            </a>
+            <p>Zoo website that allows you to observe animals in real time</p>
+            <p> Used technologies: HTML, CSS, JS</p>
+          </div>
+          <div class="game">
+            <h5>Game "Match-match"</h5>
+            <a class="game-link" target="_blanc"
+              href="https://rolling-scopes-school.github.io/swettlana-JSFE2021Q1/match-match-game/"></a>
+            <p> Memory game. Is to find paired cards</p>
+            <p> Used technologies: HTML, CSS, TS, Webpack</p>
+          </div>
+        </div>
+      </section>
+    </div>
+  </main>
+  <footer>
+    <a target="_blanc" href="https://github.com/Swettlana"><img id="my-github" src="./assets/github.svg"
+        alt="Git Hub"></a>
+    <time class="time" datetime="2022"> 2022</time>
+    <a target="_blanc" href="https://rs.school/js/"><img id="course" src="./assets/rs_school_js.svg"
+        alt="RSSchool courses"></a>
+  </footer>
 </body>
 </html>

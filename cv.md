@@ -12,7 +12,7 @@ _e-mail: stellla@tut.by_
 
 
 ### About me
-I am a responsible and hard-working person. I am currently studying the front-end RSSchool course and learn English.
+ I am a responsible and hard-working person. Currently I work as accounter, study in RSSchool and  learn English.
 
 ### Education
 __Belarusian National Technical University__, Republic of Belarus, Minsk
@@ -27,6 +27,7 @@ Completion: 2021
 * JavaScript
 * TypeScript
 * Git
+* React
 
 ### My projects
 [Web-site On-line Zoo](https://rolling-scopes-school.github.io/swettlana-JSFE2021Q1/online-zoo/pages/landing/index.html)

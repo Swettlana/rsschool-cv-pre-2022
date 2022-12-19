@@ -74,8 +74,12 @@ a {
   text-decoration: none;
 }
 nav > ul > li > a {
-  color: white;
+  color: var(--coffee);
 }
+nav > ul > li > a:hover {
+  color: rgb(59, 59, 59);
+}
+
 a:hover {
   cursor: pointer;
   text-decoration: underline;

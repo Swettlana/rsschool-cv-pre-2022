@@ -106,11 +106,11 @@ footer {
 .avatar {
   width: 170px;
   height: 200px;
-  position: relative;
-  top: 10px;
-  left: 25px;
-  background-image: url("./assets/for-CV.jpg");
-  background-size: cover;
+  align-self: center;
+  overflow: hidden;
+}
+.avatar-img {
+  width: 100%;
 }
 
 .contact > li::after {

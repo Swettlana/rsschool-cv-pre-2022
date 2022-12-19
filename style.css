@@ -1,0 +1,211 @@
+:root {
+  --latte: #ddbc95;
+  --coffee: #b38867;
+  --ceramic: #cdcdc0;
+  --lead: #626d61;
+}
+
+body {
+  margin: 0 auto;
+  box-sizing: border-box;
+  width: 797px;
+  border: 2px solid var(--lead);
+  position: relative;
+}
+nav {
+  display: flex;
+  width: 100%;
+  padding-left: 190px;
+  margin: 0;
+  box-sizing: border-box;
+}
+nav > ul {
+  display: flex;
+  width: 100%;
+  margin: 0;
+  font-size: 12px;
+  column-gap: 10px;
+  justify-content: space-between;
+  color: white;
+}
+header {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  height: 100px;
+  padding: 10px;
+  box-sizing: border-box;
+  background: #ddbc95;
+  text-align: center;
+  justify-content: space-around;
+  color: var(--lead);
+}
+h1,
+h2 {
+  margin: 0;
+  padding-left: 20px;
+}
+main {
+  background-color: var(--ceramic);
+  display: flex;
+  width: 100%;
+  height: 100%;
+  box-sizing: border-box;
+  padding-bottom: 20px;
+}
+aside {
+  width: 30%;
+  background-color: var(--coffee);
+  height: 100%;
+  position: absolute;
+  top: 0;
+  display: flex;
+  flex-direction: column;
+  row-gap: 10px;
+}
+section {
+  padding-left: 250px;
+  box-sizing: border-box;
+  border-bottom: 2px solid var(--lead);
+}
+
+a {
+  color: black;
+  text-decoration: none;
+}
+nav > ul > li > a {
+  color: var(--coffee);
+}
+nav > ul > li > a:hover {
+  color: rgb(59, 59, 59);
+}
+
+a:hover {
+  cursor: pointer;
+  text-decoration: underline;
+}
+li {
+  list-style-type: none;
+  position: relative;
+}
+span {
+  font-weight: bold;
+}
+h5 {
+  margin: 0;
+}
+footer {
+  width: 100%;
+  height: 40px;
+  background-color: var(--latte);
+  padding-left: 240px;
+  box-sizing: border-box;
+  display: flex;
+  justify-content: space-around;
+}
+.avatar {
+  width: 170px;
+  height: 200px;
+  align-self: center;
+  overflow: hidden;
+}
+.avatar-img {
+  width: 100%;
+}
+
+.contact > li::after {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: -20px;
+  width: 15px;
+  height: 100%;
+  background-image: url("./assets/address.svg");
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+#phone::after {
+  background-image: url("./assets/phone.svg");
+}
+#email::after {
+  background-image: url("./assets/email.svg");
+}
+#git-hub::after {
+  background-image: url("./assets/github.svg");
+}
+.lang,
+.skills {
+  font-size: 20px;
+}
+
+.skills > li::after {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: -30px;
+  width: 25px;
+  height: 100%;
+  background-image: url("./assets/htm.svg");
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+#CSS::after {
+  background-image: url("./assets/scc.svg");
+}
+#git::after {
+  background-image: url("./assets/git.svg");
+}
+#js::after {
+  background-image: url("./assets/js.svg");
+}
+#ts::after {
+  background-image: url("./assets/ts.svg");
+}
+#react::after {
+  background-image: url("./assets/react.svg");
+}
+.education > p {
+  margin: 0;
+}
+.projects {
+  width: 100%;
+  display: flex;
+  justify-content: space-around;
+  box-sizing: border-box;
+}
+.zoo,
+.game {
+  width: 45%;
+  background-color: rgb(242, 235, 235);
+  padding: 8px;
+  box-sizing: border-box;
+}
+.zoo > p,
+.game > p {
+  margin: 0;
+  font-size: 14px;
+}
+.zoo-link,
+.game-link {
+  display: flex;
+  width: 90%;
+  height: 100px;
+  background-image: url("./assets/zoo.png");
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+.game-link {
+  background-image: url("./assets/game.png");
+}
+#my-github {
+  width: 30px;
+  height: 30px;
+}
+#course {
+  width: 80px;
+  height: 30px;
+}
+.time {
+  font-size: 24px;
+}

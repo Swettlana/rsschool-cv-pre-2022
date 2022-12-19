@@ -9,6 +9,16 @@
 </head>
 <body>
   <header>
+    <nav>
+      <ul>
+        <li><a href="">About me</a></li>
+        <li><a href="">Education</a></li>
+        <li><a href="">Skills</a></li>
+        <li><a href="">My projects</a></li>
+        <li><a href="">Languages</a></li>
+        <li><a href="">Contacts</a></li>
+      </ul>
+    </nav>
     <h1>Sviatlana Mikhailava</h1>
     <h2>Junior Front-end Developer</h2>
   </header>
@@ -50,11 +60,55 @@
       </div>
     </aside>
     <div>
-      <section></section>
-      <section></section>
-      <section></section>
-      <section></section>
-      <section></section>
+      <section class="about">
+        <h4>
+          About me
+        </h4>
+        <p>
+          I am a responsible and hard-working person. Currently I work as accounter, study in RSSchool and
+          learn English.
+        </p>
+      </section>
+      <section class="education">
+        <h4>
+          Education
+        </h4>
+        <p><span>Belarusian National Technical University</span>, Republic of Belarus, Minsk</p>
+        <p>Completion: 2008</p>
+        <p>On-line corses <span>"HTML for beginners"</span> and <span>"CSS for beginners"</span></p>
+        <p>Completion: 2021</p>
+      </section>
+      <section class="code">
+        <h4>
+          Code example
+        </h4>
+        <pre>
+          function explode(s)
+            {
+              return s.split('').map((el)=> el.repeat(Number(el))).join('') 
+            }
+        </pre>
+      </section>
+      <section>
+        <h3>Studies projects</h3>
+        <div class="projects">
+          <div class="zoo">
+            <h5>Web-site On-line Zoo</h5>
+            <a class="zoo-link" target="_blanc"
+              href="https://rolling-scopes-school.github.io/swettlana-JSFE2021Q1/online-zoo/pages/landing/index.html">
+            </a>
+            <p>Zoo website that allows you to observe animals in real time</p>
+            <p> Used technologies: HTML, CSS, JS</p>
+          </div>
+          <div class="game">
+            <h5>Game "Match-match"</h5>
+            <a class="game-link" target="_blanc"
+              href="https://rolling-scopes-school.github.io/swettlana-JSFE2021Q1/match-match-game/"></a>
+            <p> Memory game. Is to find paired cards</p>
+            <p> Used technologies: HTML, CSS, TS, Webpack</p>
+          </div>
+        </div>
+      </section>
     </div>
   </main>
   <footer></footer>
